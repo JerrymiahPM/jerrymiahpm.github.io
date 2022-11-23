@@ -29,15 +29,22 @@ body {
 	font-size: 100px;
 }
 
+.toolbar ul {
+	border: 1px dotted red;
+	width: 100%;
+	padding-top: .5%;
+	padding-right: 1vw;
+	height: 100%;
+}
+
 .toolbar ul li {
 	margin-left: 1.25%;
 	-webkit-transition: color 1s ease-out;
 	color: #C5C6C7;
-	display: inline-block;
+	display: inline;
 	padding-left: 2%;
-	font-size: 5vh;
+	font-size: 2vw;
 	font-family: Verdana;
-	margin-top: 0.2%;
 }
 
 .toolbar ul li:hover {
