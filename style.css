@@ -1,0 +1,47 @@
+.toolbar {
+	width: 100%;
+	background-color: #1F2833;
+	height: 100px;
+	position: relative;
+	border-radius: 20px;
+}
+
+body {
+	background-color: #0B0C10;
+}
+
+.toolbar img {
+	position: absolute;
+	display: inline-block;
+	width: 5vh;
+	border-radius: 20px;
+	margin-left: 20px;
+	min-height: 5vh;
+	width: 5vh;
+	min-width: 5vh;
+	margin-top: 15px;
+}
+
+.title {
+	font-family: 'Minecraft', sans-serif;
+	color: #C5C6C7;
+	text-align: center;
+	font-size: 100px;
+}
+
+.toolbar ul li {
+	margin-left: 1.25%;
+	-webkit-transition: color 1s ease-out;
+	color: #C5C6C7;
+	display: inline-block;
+	padding-left: 2%;
+	font-size: 5vh;
+	font-family: Verdana;
+	margin-top: 0.2%;
+}
+
+.toolbar ul li:hover {
+	-webkit-transition: color 1s ease-in;
+	color: #45A29E;
+	cursor: default;
+}
