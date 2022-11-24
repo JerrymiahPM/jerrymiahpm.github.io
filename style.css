@@ -74,6 +74,7 @@ body {
 	bottom: 25%;
 	width: 50vw;
 	min-width: 350px;
+	padding-left: 2vw;
 	position: relative;
 	display: inline-block;
 }
