@@ -23,6 +23,39 @@
 	font-size: xx-large;
 }
 
+#resources {
+	text-decoration: none;
+	color: #C5C6C7;
+}
+
+#home {
+	text-decoration: none;
+	color: #C5C6C7;
+}
+
+#discord {
+	text-decoration: none;
+	color: #C5C6C7;
+}
+
+#home:hover {
+	-webkit-transition: color 1s ease-in;
+	color: #45A29E;
+	cursor: default;
+}
+
+#discord:hover {
+	-webkit-transition: color 1s ease-in;
+	color: #45A29E;
+	cursor: default;
+}
+
+#resources:hover {
+	-webkit-transition: color 1s ease-in;
+	color: #45A29E;
+	cursor: default;
+}
+
 * {
 	font-family: Verdana;
 }
@@ -87,8 +120,38 @@ body {
 	font-family: Verdana;
 }
 
-.toolbar ul li:hover {
-	-webkit-transition: color 1s ease-in;
-	color: #45A29E;
-	cursor: default;
+.footer {
+	margin-top: 15vh;
 }
+
+.credits {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+/*
+Scrollbar Handling
+*/
+
+/* width */
+::-webkit-scrollbar {
+	width: .75vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #0B0C10; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #555; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #45A29E; 
+  }
