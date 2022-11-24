@@ -73,6 +73,7 @@ body {
 .toolbar ul {
 	bottom: 25%;
 	width: 50vw;
+	min-width: 350px;
 	position: relative;
 	display: inline-block;
 }
